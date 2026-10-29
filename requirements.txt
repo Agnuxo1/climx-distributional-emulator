@@ -1,0 +1,11 @@
+numpy
+pandas
+xarray
+scipy
+scikit-learn
+xclim
+regionmask
+netCDF4
+h5netcdf
+pyarrow
+huggingface-hub

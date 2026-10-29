@@ -1,0 +1,7 @@
+ClimX emulator — sprint 29-10-2026 (Francisco Angulo de Lafuente, team franciscoangulo).
+
+climx_sota/ is derived from the public Kaggle notebook "climx-sota-main-track" by maverickss26
+(https://www.kaggle.com/code/maverickss26/climx-sota-main-track), released under the Apache License 2.0.
+ClimX/ contains the official ClimX challenge code (IPL-UV/ClimX) used for scoring and submission format.
+Changes in this copy are marked "[sprint 29-10]": optional longitude smoothing of quantile-regression slopes
+(qmap.smooth_slopes, Config.slope_smooth) and fork-parallel member generation (Config.gen_procs).
