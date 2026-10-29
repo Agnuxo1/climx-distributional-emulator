@@ -8,16 +8,16 @@ The forecasting engine comes from **maverickss26/climx-sota-main-track**. It is 
 
 | Experiment/check | Recorded outcome | Scope |
 |---|---|---|
-| Base,16members,8bands,SSP370 held out | approximately0.1681 | Approximate band score without AR6 regions; not official leaderboard |
-| Slope smoothing5,matched panel | approximately0.1680 | No demonstrated gain over base; exploratory |
-| Parallel refactor,original thread mismatch |13/15 indices close; R95p differed0.019 and SDII0.004 | Technical mismatch retained |
+| Base, 16 members, 8 bands, SSP370 held out | approximately 0.1681 | Approximate band score without AR6 regions; not official leaderboard |
+| Slope smoothing 5, matched panel | approximately 0.1680 | No demonstrated gain over base; exploratory |
+| Parallel refactor, original thread mismatch |13/15 indices close; R95p differed0.019 and SDII0.004 | Technical mismatch retained |
 | Corrected identical OMP=2 verification |15/15 indices difference0.0 on band0 | Numerical equivalence on one band; not model-quality gain |
 
-The 64-member prediction is running on servidor-ia, job1fc48030296c4f63. Earlier interrupted runs and their retained band caches are technical history, not independent quality trials. There is no completed prediction, official score or measured own-technology gain in this snapshot.
+The 64-member prediction is running on servidor-ia, job 1fc48030296c4f63. Earlier interrupted runs and their retained band caches are technical history, not independent quality trials. There is no completed prediction, official score or measured own-technology gain in this snapshot.
 
 ## Reproduce
 
-Linux, Python3.11+, sufficient RAM and disk for full climate data. Use the competition's allowed daily fields and forcing files. Do not commit them.
+Linux, Python 3.11+, sufficient RAM and disk for full climate data. Use the competition's allowed daily fields and forcing files. Do not commit them.
 
 ```bash
 python -m pip install -r requirements.txt

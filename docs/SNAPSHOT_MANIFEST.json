@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:12:12.510905+00:00",
+  "source_snapshot_utc": "2026-10-29T07:20:08.374061+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -173,8 +173,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2862,
-      "sha256": "ad823aed999730d0c14f8555b3bbbcfaf4d920c607e85a3390198a6e92d50e24"
+      "bytes": 2874,
+      "sha256": "80037501f2972bff2940cb9dc6e9f599f4b1ea237d34cb198ee398f9320bd97e"
     },
     {
       "path": "requirements.txt",
