@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:20:08.374061+00:00",
+  "source_snapshot_utc": "2026-10-29T08:39:32.712578+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -152,6 +152,61 @@
       "sha256": "86d5db4f8851a6ed9eab58ea0671049cd1299801f735d3ecf50aeb5c9e358923"
     },
     {
+      "path": "docs/readme/01-banner.gif",
+      "bytes": 1492529,
+      "sha256": "6dfc723862cef1230fa403d06ebeea36971f81e0a7ad6c76ebf82c3e25a8242d"
+    },
+    {
+      "path": "docs/readme/02-provenance.gif",
+      "bytes": 1086065,
+      "sha256": "0bbf57da74a29154ce7af2ebd2f89aab87767e7b4854e41279101673207a5b5f"
+    },
+    {
+      "path": "docs/readme/03-pattern-scaling.gif",
+      "bytes": 696373,
+      "sha256": "cf5f370f6b7daafd6c7e78c53635a79422f6175128430e39caa8e0af5733c49e"
+    },
+    {
+      "path": "docs/readme/04-measured-status.gif",
+      "bytes": 351996,
+      "sha256": "17fb30925fc4144998059ea29c8f29627deef427e72abac20911c55fa11e61b8"
+    },
+    {
+      "path": "docs/readme/05-equivalence-check.gif",
+      "bytes": 346357,
+      "sha256": "37dc997b8cc24471d25ca20673a8bd9008cad040ad9e8cf7894395f35e4d88c4"
+    },
+    {
+      "path": "docs/readme/06-background.gif",
+      "bytes": 172698,
+      "sha256": "5011cd5d83cd11e6550eb2990e8c2b26162c17d82ee0815913885ec0b3db0ed2"
+    },
+    {
+      "path": "docs/readme/07-reproduce.gif",
+      "bytes": 214395,
+      "sha256": "06c201688872cbb03098474d3b206b808e9cae7ec4dbdfa13518c4990d05af74"
+    },
+    {
+      "path": "docs/readme/08-pipeline.gif",
+      "bytes": 896819,
+      "sha256": "ee6da8c2cafd0741d851e28c916d5a6fec756f22f970e73c813a236d149b2263"
+    },
+    {
+      "path": "docs/readme/09-applications.gif",
+      "bytes": 671298,
+      "sha256": "d7662ad34e9b16901401b3374c40d547538f2f5392179633f2b603d564873ade"
+    },
+    {
+      "path": "docs/readme/10-improvements.gif",
+      "bytes": 506130,
+      "sha256": "4e928042d92ff2d560cf106b7e2e78f8b3c2f4a919b3a63abb2ca1599c5ee85d"
+    },
+    {
+      "path": "docs/readme/11-roadmap.gif",
+      "bytes": 450858,
+      "sha256": "33cfd6aab09eb2291403a638b5e85293695ebf9ace2b5caf832d60bbf9799bf6"
+    },
+    {
       "path": "docs/RESEARCH_PROTOCOL.md",
       "bytes": 1012,
       "sha256": "75644869eb164766415151e4d6983e9af5f0659dd85b48fe43c7f4c2a8b29764"
@@ -173,8 +228,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2874,
-      "sha256": "80037501f2972bff2940cb9dc6e9f599f4b1ea237d34cb198ee398f9320bd97e"
+      "bytes": 15784,
+      "sha256": "5b2595d2bc28ee7946f55f4dd18345363ded9c46d5d2cdb54cacbc50730773d9"
     },
     {
       "path": "requirements.txt",
