@@ -1,15 +1,15 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:07:38.481708+00:00",
+  "source_snapshot_utc": "2026-10-29T07:12:12.510905+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
-      "bytes": 311,
-      "sha256": "ff801f2d08f4e279821cc2a9787b723ea897ab03b93c6d31dafc91afbc42fee7"
+      "bytes": 298,
+      "sha256": "3bf8c6048a92e11e56b5e658a783e786240242503b6ef53368fe469d02b386f2"
     },
     {
       "path": ".gitignore",
-      "bytes": 135,
-      "sha256": "22d4eaee305e67584737d9b3ca7f7c1bb8c30cb15b2e8e3875d3d5cfe09ed358"
+      "bytes": 124,
+      "sha256": "e617ae056bcea7553fb3bd605e137457155b63faaa5b880fe5d5bc2495f2e28e"
     },
     {
       "path": "ClimX/LICENSE",
@@ -18,93 +18,93 @@
     },
     {
       "path": "ClimX/rnNSE.py",
-      "bytes": 22588,
-      "sha256": "b56af4ba9ee0e0602129a2569a462e3edac9f4737fc1f3005357c75df42e94be"
+      "bytes": 22249,
+      "sha256": "9565c61f10a73602191949b7b38bb66daecfa101815042fb86eca3ef290f36cb"
     },
     {
       "path": "ClimX/src/data_preprocessing/preprocessing.py",
-      "bytes": 21289,
-      "sha256": "d5fe1438c04d821f747f3989d09eae3b97f6eb14d0cd7f69ea8d39a66a5765b6"
+      "bytes": 20849,
+      "sha256": "4c123508e596883bbcf4ffcec3f87806d1d60c97860702d0298a9e068bf17c25"
     },
     {
       "path": "ClimX/src/data_preprocessing/preprocessing_utils.py",
-      "bytes": 12312,
-      "sha256": "d2afcdf6b05ee7a3e560f5fef3b020129b7806797f3c1579b910d4e9f310a78a"
+      "bytes": 12050,
+      "sha256": "fe9ab256af20970263b69f7f3fdd7c7a4200116458281b18c1dd046a5aab4ab7"
     },
     {
       "path": "ClimX/src/index_metadata.py",
-      "bytes": 4555,
-      "sha256": "38b0436083b3256fbc6a29fd86e75e366db050b09bae272d85b726efd29fb6c2"
+      "bytes": 4482,
+      "sha256": "24fbef759b4cb2c2f5acf3982f3f56a2598aec3f404db6f17b5733cde7af7267"
     },
     {
       "path": "ClimX/src/indices_xclim.py",
-      "bytes": 30904,
-      "sha256": "476eaaa531910f595a2042f6d1312b14dbb77c56230e810425e22f7d870a60d1"
+      "bytes": 30081,
+      "sha256": "37c1826584bca4c3c815e2128741f5af9026c41deda0b19c6a27cfe2311b44c2"
     },
     {
       "path": "ClimX/src/metrics.py",
-      "bytes": 1368,
-      "sha256": "666de92feded22ba4703c956198e6ce4038f3df46680ca9b456d901cae5c3cd8"
+      "bytes": 1319,
+      "sha256": "9a51d5ef0c52980978fa690e1829a16a57fe032e2e6f87609c71707456233e7e"
     },
     {
       "path": "ClimX/src/models/climatology_model.py",
-      "bytes": 5222,
-      "sha256": "629b33a8794889803dc2663e7649a16752a4385caddf5fa48a15f34ce101514f"
+      "bytes": 5088,
+      "sha256": "ce1a0ba03736c913830bd11f174b96d3280d9844a2c3e432570be3cf0615d4c9"
     },
     {
       "path": "ClimX/src/models/emulator.py",
-      "bytes": 10731,
-      "sha256": "c2963459861e8d51d721872ab402733e08da41409207234085bd8b335cb65aed"
+      "bytes": 10474,
+      "sha256": "84ed649389b49013675dc426d123eb3b2ea9956f312b3dd9a841c7a1c19d0aa9"
     },
     {
       "path": "ClimX/src/models/gnn_model.py",
-      "bytes": 23019,
-      "sha256": "a081105ed92222a8f3d889c2581a37911dbc7a0fab2530dd52d4db0267a33fa0"
+      "bytes": 22459,
+      "sha256": "5251e08dc1fd120c233e58184610a314ed270498cbe2951a672ff0d33b55414c"
     },
     {
       "path": "ClimX/src/models/lps_model.py",
-      "bytes": 15308,
-      "sha256": "d3c3c91f0ed5015ee32ba769227b0fce2ac0deb57ccaa565dfd351c7ca292412"
+      "bytes": 14938,
+      "sha256": "d40de835531995e2dbf346544b3fe6a7336cd662ebbb61ba42046bb5d244c3ae"
     },
     {
       "path": "ClimX/src/models/nn_model.py",
-      "bytes": 22081,
-      "sha256": "3c3a95b3a4437be46d8ee24917148583cd8a40b2d1b4c1f34ea037c07c57d27d"
+      "bytes": 21520,
+      "sha256": "e7a03205a89225c6fafef6f12ecfae45a328b6d1f52f5843ca22f1e0be85aa13"
     },
     {
       "path": "ClimX/src/utils/hugging_face_utils.py",
-      "bytes": 4237,
-      "sha256": "0f36379352cbcdfe80e6c5d0e7be08e4e1b9e29f72c0577ab3d370b79b0f246e"
+      "bytes": 4128,
+      "sha256": "3b0a8ab766b19e088ac542844348d2a7f9dd1d4ddbb4d36680ce296aa44365ea"
     },
     {
       "path": "ClimX/src/utils/indices_utils.py",
-      "bytes": 3054,
-      "sha256": "5472700012b2e051fb49d94b43b5eed29b43edd777d03baafce8fa06b0b2ddef"
+      "bytes": 2968,
+      "sha256": "5785c4afbb1fb43e97408fc4201b549e4c14ff587719cb08f53e4df7458dad77"
     },
     {
       "path": "ClimX/src/utils/kaggle_submission.py",
-      "bytes": 28057,
-      "sha256": "3b1d030d7fcecc4d67b17b6163b7579b014a60cd57db291e3c6c90a91a59e260"
+      "bytes": 27318,
+      "sha256": "8cdbcd0eb4c73a119b5a0bb9a0c689bbe93d7e77d09d227e4658be6bcb0d9cf4"
     },
     {
       "path": "ClimX/src/utils/logging_utils.py",
-      "bytes": 1294,
-      "sha256": "65f6f3d2c4c817a3ff567e641ff9f9ef2aaa8afae1d006aa2ab8e91a4fe77958"
+      "bytes": 1256,
+      "sha256": "c15021b6c7cfd825e8bf1dba0aa5d6e1e2549ea602d1bd6d03811fea124b6309"
     },
     {
       "path": "ClimX/src/utils/original_data_values.py",
-      "bytes": 5499,
-      "sha256": "bddd97a6d50db00007c922c793edb37c1e07d25b6cb4f9d70add46e7a1709a31"
+      "bytes": 5422,
+      "sha256": "d55d47aef9f20394e25c7ac67a6081c953ad77b37f883d9c4a6e02f4ff769d71"
     },
     {
       "path": "ClimX/src/visualization/utils.py",
-      "bytes": 13992,
-      "sha256": "0096114f496331c2a804ad64a924b17b638d708a462832eae2f5825fd6e3dbfb"
+      "bytes": 13678,
+      "sha256": "804b7f1af25023f3f3676d80a0a6a9f5651bf98df8a1e578075425284bcbaa3d"
     },
     {
       "path": "ClimX/src/visualization/visualize_data.py",
-      "bytes": 5275,
-      "sha256": "81e938d89fd6d6d7cb73f3fb86b0014a945499ed3ce609076dc78e66ccfd71da"
+      "bytes": 5163,
+      "sha256": "6b54f1ba3d0f800f59e2d70db1ad68cb57a2d8afb1b69b7339b6efcf8a1bc10a"
     },
     {
       "path": "climx_sota/__init__.py",
@@ -113,43 +113,48 @@
     },
     {
       "path": "climx_sota/data.py",
-      "bytes": 32237,
-      "sha256": "6d5b825094aee863e5ed2ab7e2aa7422f86b95a176a7dba6ae6f75de5a6de926"
+      "bytes": 31523,
+      "sha256": "3d1553b1b281685d38f692957210b4e521a09c29f2e190f983397cd5e582a349"
     },
     {
       "path": "climx_sota/forcing.py",
-      "bytes": 11055,
-      "sha256": "42a502e436f91cb067681775c7e551deebd70bacaabe60b71397b73d81add44e"
+      "bytes": 10820,
+      "sha256": "cdc1e0eb377c0584d9d07408844ee5bdae4983d54b1f04a8873b31fc096f8623"
     },
     {
       "path": "climx_sota/indices.py",
-      "bytes": 8678,
-      "sha256": "37648d5468683085166025a1c26c399f54181a10ebab5a9e883307ef20c39de5"
+      "bytes": 8477,
+      "sha256": "c60fff2703da7db9b9937d08d83d7043894306a59a883793ce07a5d1792e632f"
     },
     {
       "path": "climx_sota/pipeline.py",
-      "bytes": 16595,
-      "sha256": "c56e2afb96e3ad9fe989308138d0358f14eb063df49fc1e70b8d986a39fed1c6"
+      "bytes": 16252,
+      "sha256": "7614b2b8ba7bdd36f71795d1ae98924e5db57faa84216b6e17eadcf9caf7ff1f"
     },
     {
       "path": "climx_sota/qmap.py",
-      "bytes": 12898,
-      "sha256": "0ca8e33848fd8d283766b2824e72257a37ffd17577bab735ddf03f4e720dc8aa"
+      "bytes": 12606,
+      "sha256": "cab41953660502d6d32668fd45689ad0d21470ae64c164f1d6c07a86ded2bcde"
     },
     {
       "path": "climx_sota/score.py",
-      "bytes": 4032,
-      "sha256": "c7911800e99b96c644fb1aaa8b15a65d27d03a9113543acab19e0c03e9fc13d5"
+      "bytes": 3934,
+      "sha256": "3cfd16af047333a038832fcedff54972a57c37b4d031a79adbe4bb6c96581605"
+    },
+    {
+      "path": "docs/official-readback.json",
+      "bytes": 113,
+      "sha256": "2726bea93219f64747546c00d7ffe9e795f1c67bef8e24981f3f33e02736062e"
     },
     {
       "path": "docs/PROJECT_STATUS.json",
-      "bytes": 276,
-      "sha256": "b4b498a3d276d09d44a41e4f4d4c21b9defdb8f918b040bd191d4bf0044cc4b4"
+      "bytes": 269,
+      "sha256": "86d5db4f8851a6ed9eab58ea0671049cd1299801f735d3ecf50aeb5c9e358923"
     },
     {
       "path": "docs/RESEARCH_PROTOCOL.md",
-      "bytes": 1019,
-      "sha256": "68d8a6ee01a9b892000e4b4b270da8c38d5ebe9fc504a708c576fe81b05f6b15"
+      "bytes": 1012,
+      "sha256": "75644869eb164766415151e4d6983e9af5f0659dd85b48fe43c7f4c2a8b29764"
     },
     {
       "path": "LICENSE",
@@ -178,23 +183,23 @@
     },
     {
       "path": "run_sota.py",
-      "bytes": 5632,
-      "sha256": "ced3bec493e96270aba6bccfe2fd5e4c517e721b5162da0673fe03764eabd4fc"
+      "bytes": 5509,
+      "sha256": "ea47c0cfab2e17b3387a47948edb149c686765defd32a7f03b9acd1a5adfd638"
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 1341,
-      "sha256": "64ff3f8ad74db8a5fc1990965d366240f7930f599ab3113bc7e2a439226b1c3a"
+      "bytes": 1318,
+      "sha256": "c0370e075a1b624184c722b2516a79e046a421f8085d08485cb082bdb9b0c124"
     },
     {
       "path": "tools/update_manifest.py",
-      "bytes": 649,
-      "sha256": "1f3fba6a0e3c5f0398450ef6ea6c2734fc2020264a0e6253fb0f10515b0e76df"
+      "bytes": 653,
+      "sha256": "0538a3dbdfe064c5ffdf44ea142d78df0b6af0819cbfb8cb0cdc686c26196595"
     },
     {
       "path": "verify_gen.py",
-      "bytes": 1229,
-      "sha256": "d5ea3ada6c7e63f563762105cd40ab108a547a477d4660362d96a43b59f96b81"
+      "bytes": 1202,
+      "sha256": "dbd92f6d3c454cbaab17cc66d546a318036deb0fcc4604f3636eb93f4c1f4d56"
     }
   ]
 }
