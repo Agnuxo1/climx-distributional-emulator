@@ -10,13 +10,15 @@
 
 </div>
 
+**Official public score 0.03070 on the ClimX leaderboard with 64 members (submission 57777154), against 0.02852 for the credited public engine reproduced exactly with 32 members (submission 57777260): +0.00218, about 7.6 %.**
+
 A reproducible adaptation of the credited public distributional pattern-scaling emulator for the [ClimX main track](https://www.kaggle.com/competitions/climx-main-track), with bounded-memory member generation and an experimental longitude-smoothing option.
 
 **Contents** — [Provenance and measured status](#provenance-and-measured-status) · [Background](#background) · [Reproduce](#reproduce) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Licence](#licence) · [Bibliography](#bibliography)
 
 ## Provenance and measured status
 
-<p align="center"><img src="docs/readme/02-provenance.gif" alt="Flow from the credited Kaggle notebook through this adaptation and the official ClimX code to the submission format" width="100%"><br><sub>Fig. 1 — Provenance. Data: README and NOTICE; no submissions are recorded in docs/official-readback.json.</sub></p>
+<p align="center"><img src="docs/readme/02-provenance.gif" alt="Flow from the credited Kaggle notebook through this adaptation and the official ClimX code to the submission format" width="100%"><br><sub>Fig. 1 — Provenance. Data: README and NOTICE; official submissions are recorded in docs/official-readback.json.</sub></p>
 
 The forecasting engine comes from **maverickss26/climx-sota-main-track**. It is not represented as a newly invented model. [NOTICE](NOTICE) records that source and changes. The official [IPL-UV/ClimX](https://github.com/IPL-UV/ClimX) code computes submission indices. Our existing pixelflow/reservoir technologies are candidate hybridisations; **no reservoir contribution has yet been implemented or measured in this engine**.
 
@@ -26,6 +28,8 @@ The forecasting engine comes from **maverickss26/climx-sota-main-track**. It is 
 
 | Experiment/check | Recorded outcome | Scope |
 |---|---|---|
+| Full prediction, 64 members, 48 bands | Public score **0.03070** (57777154) | Official leaderboard, best submission |
+| Credited engine, exact reproduction, 32 members | Public score 0.02852 (57777260) | Official leaderboard, control |
 | Base, 16 members, 8 bands, SSP370 held out | approximately 0.1681 | Approximate band score without AR6 regions; not official leaderboard |
 | Slope smoothing 5, matched panel | approximately 0.1680 | No demonstrated gain over base; exploratory |
 | Parallel refactor, original thread mismatch |13/15 indices close; R95p differed0.019 and SDII0.004 | Technical mismatch retained |
@@ -33,7 +37,7 @@ The forecasting engine comes from **maverickss26/climx-sota-main-track**. It is 
 
 <p align="center"><img src="docs/readme/05-equivalence-check.gif" alt="Fifteen index cells, first with two mismatches, then all with difference 0.0 on band 0" width="100%"><br><sub>Fig. 4 — Serial versus parallel generation: numerical equivalence on one band, not a quality gain.</sub></p>
 
-The 64-member prediction is running on servidor-ia, job 1fc48030296c4f63. Earlier interrupted runs and their retained band caches are technical history, not independent quality trials. There is no completed prediction, official score or measured own-technology gain in this snapshot.
+The 64-member prediction is complete: 48 bands assembled with the official code into 4,755,456 rows with no missing values. Server runs, including job 1fc48030296c4f63, were cancelled for lack of RAM, so bands 0 to 22 come from the server and 23 to 47 from Kaggle; band 22, computed on both, matches bit for bit on 9 of 15 indices and within 3e-5 of the standard deviation on the rest. Earlier interrupted runs and their retained band caches are technical history, not independent quality trials. The official gain comes from more members of the credited engine; no own-technology gain has been measured in this snapshot.
 
 ## Background
 
@@ -101,7 +105,10 @@ Emulators of this kind are studied because they are far cheaper to run than the 
 
 <p align="center"><img src="docs/readme/10-improvements.gif" alt="Limitations on the left turning into proposed next experiments on the right" width="100%"><br><sub>Fig. 9 — Each improvement targets a limitation stated in this README.</sub></p>
 
-- **Score on the full official procedure.** The recorded scores are approximate band scores without AR6 regions
+- **Distance to the top.** On 29 October, 0.03070 stood near position 77 of 122, with the leaders between 0.10 and
+  0.12. Closing that gap calls for a different engine rather than more members, tested through the fixed-control
+  ablation below.
+- **Score on the full official procedure.** The held-out scores above are approximate band scores without AR6 regions
   [[10](#ref-10)]; scoring all bands with the official region-wise code would be kept separate from them.
 - **Test smoothing properly.** Slope smoothing 5 shows no demonstrated gain (approximately 0.1680 against
   approximately 0.1681). Other widths would need a recorded hypothesis, matched panels and independent seeds or folds
@@ -114,17 +121,13 @@ Emulators of this kind are studied because they are far cheaper to run than the 
 
 ## Future work
 
-<p align="center"><img src="docs/readme/11-roadmap.gif" alt="Roadmap with two completed milestones, one run in progress and three planned steps" width="100%"><br><sub>Fig. 10 — Completed milestones are documented in this repository; the 64-member run is stated as running.</sub></p>
+<p align="center"><img src="docs/readme/11-roadmap.gif" alt="Roadmap with four completed milestones and two planned steps" width="100%"><br><sub>Fig. 10 — Completed milestones are documented in this repository and docs/official-readback.json.</sub></p>
 
-Planned next steps, in order; only the first is stated as under way:
+Planned next steps, in order:
 
-1. Let the 64-member prediction finish (stated as running, job 1fc48030296c4f63); until then there is no completed
-   prediction.
-2. Record any official read-back in [docs/official-readback.json](docs/official-readback.json), which currently lists
-   no submissions.
-3. Repeat the serial-versus-parallel verification on more bands and members.
-4. Re-test slope smoothing with other widths under a recorded hypothesis and independent confirmation.
-5. Evaluate a reservoir or pixelflow hybrid on the daily fields with a fixed-control ablation, then confirm it
+1. Repeat the serial-versus-parallel verification on more bands and members.
+2. Re-test slope smoothing with other widths under a recorded hypothesis and independent confirmation.
+3. Evaluate a reservoir or pixelflow hybrid on the daily fields with a fixed-control ablation, then confirm it
    independently before claiming a gain.
 
 ## Licence

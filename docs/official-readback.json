@@ -1,5 +1,22 @@
 {
-  "checked_utc": "2026-10-29T07:08:12.760111+00:00",
+  "checked_utc": "2026-11-06T17:46:51.943060+00:00",
   "competition": "climx-main-track",
-  "submissions": []
+  "submissions": [
+    {
+      "ref": "57777260",
+      "label": "control: credited engine, 32 members",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.02852",
+      "private_score": "",
+      "date": "2026-10-29 16:48:16.777000"
+    },
+    {
+      "ref": "57777154",
+      "label": "64 members",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.03070",
+      "private_score": "",
+      "date": "2026-10-29 16:44:11.533000"
+    }
+  ]
 }
