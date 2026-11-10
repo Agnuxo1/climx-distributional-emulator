@@ -1,0 +1,77 @@
+{
+  "mode": "screen",
+  "source_manifest_sha256": "d4da15654dbf0116ee101a79c3ad5aa769d36d16e5e2ba84b87ff2118c6f3551",
+  "input_manifest_sha256": "76f018dcbae7ed9a8128d4f9c53afae75e691e519e6e5d2a7dae2ccbb95cf8cd",
+  "runtime": {
+    "torch": "2.14.1+cu130",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "xarray": "2026.9.0",
+    "scipy": "1.18.1"
+  },
+  "fixtures": {
+    "quantiles": "PASS",
+    "ridge_control": "PASS",
+    "ridge_Q2": "PASS",
+    "daily_interpolation": "PASS",
+    "pinball_integration": "PASS",
+    "train_only_basis": "PASS",
+    "device": "cuda:0"
+  },
+  "seconds": 205.56214240501868,
+  "peak_allocated_VRAM_GiB": 0.26575756072998047,
+  "peak_RSS_GiB": 4.578041076660156,
+  "records": [
+    {
+      "band": 3,
+      "coefficient_sha256": "fb471988815fd5d46dca93c7ec6c0d6b656d59bef26f777ad24dd8cf38237e63"
+    },
+    {
+      "band": 9,
+      "coefficient_sha256": "2709187e7671355933ca66ab66bccdc688b9acee95afb04a2bff29f3541c486c"
+    },
+    {
+      "band": 15,
+      "coefficient_sha256": "bc3e072e1c0b9cd6562592a206e8f16f06062bf14463989bd653da96403768b0"
+    },
+    {
+      "band": 21,
+      "coefficient_sha256": "a2d352870813af0c72ca2f93d4cbf096a57145246712524e2a4bfdda96a8d38f"
+    },
+    {
+      "band": 27,
+      "coefficient_sha256": "3cd45e473418e0680233d15baf31d4cffa85215dad44fd6ee83f3bdfd01cb9cf"
+    },
+    {
+      "band": 33,
+      "coefficient_sha256": "b6cd3b5727955ce4e88c5ce51f64aa731a3a7d63c81b3f0f378cb45b0431c299"
+    },
+    {
+      "band": 39,
+      "coefficient_sha256": "fc8fd4008c6a4dabba813b98912e2148dde4492dd83c20f3f2fd9b42907afddf"
+    },
+    {
+      "band": 45,
+      "coefficient_sha256": "3f2ad4181d6f765ac4ea9dbe7edcacb39812d4cc66420f5c15530763e60672d7"
+    }
+  ],
+  "test_accessed": false,
+  "official_submission_created": false,
+  "summary": {
+    "metric": "truncated CRPS over daily tasmax quantiles p=.01..99; K; lower is better",
+    "control": 1.1479905970418411,
+    "Q2": 1.1478179497598133,
+    "reduction_K": 0.00017264728202781576,
+    "relative_reduction": 0.00015039085030199359,
+    "paired_95pct_block_CI_K": [
+      -0.00042651122029036535,
+      0.0008457474638478734
+    ],
+    "gate_relative_at_least_0025": false,
+    "gate_CI_low_positive": false,
+    "screen_pass": false,
+    "official_index_score": null,
+    "submission_permitted": false
+  },
+  "passed": true
+}

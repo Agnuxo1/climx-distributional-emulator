@@ -1,0 +1,8 @@
+{
+  "actual_job_source_files": 15,
+  "source_hashes_exact": true,
+  "coefficients_verified": 8,
+  "source_manifest": "d4da15654dbf0116ee101a79c3ad5aa769d36d16e5e2ba84b87ff2118c6f3551",
+  "input_manifest": "76f018dcbae7ed9a8128d4f9c53afae75e691e519e6e5d2a7dae2ccbb95cf8cd",
+  "raw_losses_sha256": "92a2c27289ce5e091240b972171337d6415f3f2dcebb2602d6244591d0d2c019"
+}

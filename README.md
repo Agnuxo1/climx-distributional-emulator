@@ -167,3 +167,10 @@ Current [rules](https://www.kaggle.com/competitions/climx-main-track/rules) requ
 The identical source archive is shared in the [competition-associated Kaggle notebook](https://www.kaggle.com/code/franciscoangulo/climx-d01-daily-quantile-research-audit), version 1 COMPLETE, CPU-only. Its ZIP output was downloaded and checked byte-for-byte. This notebook is a reproducible code backup. Author: Francisco Angulo de Lafuente · [ORCID 0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063).
 
 The source archive is also backed up publicly on [Hugging Face](https://huggingface.co/datasets/Agnuxo/climx-d01-source-archive-20261110), with all eight published payloads downloaded anonymously and checked by hash.
+
+
+## D01 completed screening result — 10 November 2026
+
+The fixed daily maximum-temperature experiment completed all eight SSP370 validation bands. Its truncated continuous ranked probability score was 1.14781795 K versus 1.14799060 K for the unchanged control: a reduction of 0.00017265 K (0.01504%). The paired 95% circular ten-year block-bootstrap interval for that reduction was [−0.00042651, 0.00084575] K. It failed both preregistered requirements: a reduction of at least 0.25% and a positive lower confidence bound. The study is closed without promotion or a new official competition entry. The previous best public baseline score of 0.03070 is retained.
+
+The score above is a daily-field research metric, not the competition's official index score. Previously inspected scenarios and the nonstationary warming trend limit its evidential interpretation. The [result packet and independent replay](research/d01-20261110-results/README.md) include the protocol, aggregated paired losses, runtime and integrity evidence. The original [source archive](research/d01-20261110/README.md) remains unchanged as a dated snapshot. The associated [Kaggle notebook, version 2](https://www.kaggle.com/code/franciscoangulo/climx-d01-daily-quantile-research-audit) completed a CPU-only independent replay of the statistics and preserved the exact source ZIP.

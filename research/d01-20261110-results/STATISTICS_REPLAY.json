@@ -1,0 +1,25 @@
+{
+  "independent_fixtures_passed": [
+    "identity_control",
+    "positive_below_quarter_percent",
+    "positive_above_quarter_percent",
+    "unequal_spatial_weights_and_variable_days"
+  ],
+  "GPU_used": false,
+  "raw_loss_sha256": "92a2c27289ce5e091240b972171337d6415f3f2dcebb2602d6244591d0d2c019",
+  "replayed_summary": {
+    "control": 1.147990597041841,
+    "Q2": 1.147817949759813,
+    "reduction_K": 0.00017264728202781576,
+    "relative_reduction": 0.0001503908503019936,
+    "paired_95pct_block_CI_K": [
+      -0.0004265112202906658,
+      0.0008457474638484241
+    ],
+    "gate_relative_at_least_0025": false,
+    "gate_CI_low_positive": false,
+    "screen_pass": false
+  },
+  "official_score": null,
+  "new_entry_permitted": false
+}
