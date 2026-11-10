@@ -154,3 +154,16 @@ Apache-2.0 adaptation, retaining [LICENSE](LICENSE) and [NOTICE](NOTICE). Bundle
 <sub>Built by <a href="https://github.com/Agnuxo1">Francisco Angulo de Lafuente</a> · every figure is an animated
 rendering of the published file named in its footer, apart from the labelled schematic · <a href="#climx-distributional-emulator">back to top ↑</a></sub>
 </div>
+
+
+## Verified recovery and daily-quantile study — 10 November 2026
+
+Two existing ClimX entries are now verified as COMPLETE: **57777154, public score 0.03070** (64-member baseline), and **57777260, public score 0.02852** (32-member control). A successor worker completed all 48 bands after the cancelled worker mentioned above. Earlier run-status text and animated figures remain preserved; this dated section records the recovered state. No final placing or prize is confirmed.
+
+The new [D01 study](research/d01-20261110/README.md) tests a fixed quadratic greenhouse-gas response in the conditional distribution of daily maximum temperature. Its six CPU arithmetic checks passed with source/data/runtime identities verified. The GPU feasibility pilot is queued as of 10 November 2026,12:23 UTC; a climate-quality result and official-index evaluation are pending. D01 has no new scored entry. The [reproduction guide](research/d01-20261110/REPRODUCE.md) includes an executed CPU-only helper and separate input/runtime fingerprint regeneration.
+
+Current [rules](https://www.kaggle.com/competitions/climx-main-track/rules) require daily-field outputs followed by official indices. Recovered index-residual correction families are excluded from the candidate path. The source-only archive retains the original forecasting engine and its Apache-2.0 attribution; no competition observations, predictions or trained weights are redistributed.
+
+The identical source archive is shared in the [competition-associated Kaggle notebook](https://www.kaggle.com/code/franciscoangulo/climx-d01-daily-quantile-research-audit), version 1 COMPLETE, CPU-only. Its ZIP output was downloaded and checked byte-for-byte. This notebook is a reproducible code backup. Author: Francisco Angulo de Lafuente · [ORCID 0009-0001-1634-7063](https://orcid.org/0009-0001-1634-7063).
+
+The source archive is also backed up publicly on [Hugging Face](https://huggingface.co/datasets/Agnuxo/climx-d01-source-archive-20261110), with all eight published payloads downloaded anonymously and checked by hash.

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "daily_model.py": "e80bcb547aaf5f9b529be56f05593c9dd251ac29bb24290e2aca211e7c2b010a",
+    "INPUTS.json": "76f018dcbae7ed9a8128d4f9c53afae75e691e519e6e5d2a7dae2ccbb95cf8cd",
+    "LICENSE": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+    "NOTICE": "11661697b97bb11836003d0d9a39ef3347ef396a5334f554044524cba5e6640b",
+    "PROTOCOL.md": "63b8a13198220a77736c389747b1fb21cac205d5c7230d081f57459fd89f1f41",
+    "run.py": "4e5326f6e6e8d813a612af66c17ccd3c26d79b60dc074c54515e6888c6754edf",
+    "source_guard.py": "8845a575ba9524ab7e576637edfcf6e6fd1a4564732ea6f07bcc86d20dd82e80",
+    "climx_sota/data.py": "6d5b825094aee863e5ed2ab7e2aa7422f86b95a176a7dba6ae6f75de5a6de926",
+    "climx_sota/forcing.py": "42a502e436f91cb067681775c7e551deebd70bacaabe60b71397b73d81add44e",
+    "climx_sota/indices.py": "37648d5468683085166025a1c26c399f54181a10ebab5a9e883307ef20c39de5",
+    "climx_sota/pipeline.py": "c56e2afb96e3ad9fe989308138d0358f14eb063df49fc1e70b8d986a39fed1c6",
+    "climx_sota/qmap.py": "0ca8e33848fd8d283766b2824e72257a37ffd17577bab735ddf03f4e720dc8aa",
+    "climx_sota/score.py": "c7911800e99b96c644fb1aaa8b15a65d27d03a9113543acab19e0c03e9fc13d5",
+    "climx_sota/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

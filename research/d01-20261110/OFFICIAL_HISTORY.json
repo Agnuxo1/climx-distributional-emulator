@@ -1,0 +1,28 @@
+{
+  "observed_utc": "2026-11-10T11:41:41Z",
+  "competition": "climx-main-track",
+  "deadline_utc": "2026-12-15T10:59:59Z",
+  "entries": [
+    {
+      "id": 57777260,
+      "status": "COMPLETE",
+      "publicScore": "0.02852",
+      "description": "control: exact public SOTA kernel (maverickss26, Apache-2.0) reproduced privately, 32 members"
+    },
+    {
+      "id": 57777154,
+      "status": "COMPLETE",
+      "publicScore": "0.03070",
+      "description": "m64: public SOTA engine (maverickss26, Apache-2.0) with 64 members; held-out SSP3-7.0 val 0.1817 vs 0.1681 at 16"
+    }
+  ],
+  "new_D01_submission": false,
+  "award_or_final_rank_confirmed": false,
+  "separate_recovered_server_file": {
+    "filename": "submission_m64.parquet",
+    "rows": 4755456,
+    "bytes": 221489029,
+    "sha256": "ea16be912d8ca371a8f4c34036b9265c5e8192373e65a3e2c37e7ac8cb9bbb98",
+    "platform_content_hash_available": false
+  }
+}

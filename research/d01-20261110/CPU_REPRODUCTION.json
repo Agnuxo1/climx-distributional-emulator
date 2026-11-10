@@ -1,0 +1,24 @@
+{
+  "method": "Public tools/reproduce_cpu.py executed in a separate path-adapted copy; original source unchanged",
+  "fixtures": {
+    "quantiles": "PASS",
+    "ridge_control": "PASS",
+    "ridge_Q2": "PASS",
+    "daily_interpolation": "PASS",
+    "pinball_integration": "PASS",
+    "train_only_basis": "PASS",
+    "device": "cpu"
+  },
+  "fixture_seconds": 4.72661328598042,
+  "fixture_reproduction_manifest": "287b64d4267bcd78d4e07686201f0a915b4ad2908ff0f388b38204d0663c859a",
+  "full_input_and_runtime_verify": {
+    "passed": true,
+    "source_manifest": "ce86d3f47650c06201d5faec24af533a7587c1cbe8120136f6aeec7daddfd11f",
+    "input_manifest": "23782fe0e59e90de183261fff7620594fd67ed4974684a2ff5def208d0cd17a5",
+    "seconds": 13.151122315990506
+  },
+  "input_and_runtime_fingerprint_contents_equal_to_original": true,
+  "GPU_used": false,
+  "full_dataset_download_repeated": false,
+  "installation_in_new_environment_tested": false
+}

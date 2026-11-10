@@ -1,0 +1,26 @@
+{
+  "source_manifest_sha256": "d4da15654dbf0116ee101a79c3ad5aa769d36d16e5e2ba84b87ff2118c6f3551",
+  "input_manifest_sha256": "76f018dcbae7ed9a8128d4f9c53afae75e691e519e6e5d2a7dae2ccbb95cf8cd",
+  "fixtures": {
+    "quantiles": "PASS",
+    "ridge_control": "PASS",
+    "ridge_Q2": "PASS",
+    "daily_interpolation": "PASS",
+    "pinball_integration": "PASS",
+    "train_only_basis": "PASS",
+    "device": "cpu"
+  },
+  "runtime_versions": {
+    "torch": "2.14.1+cu130",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "xarray": "2026.9.0",
+    "scipy": "1.18.1"
+  },
+  "critical_runtime_file_hashes_checked": 5570,
+  "raw_band_slices_checked": 40,
+  "input_files_checked": 9,
+  "seconds": 16.88089897899772,
+  "GPU_quality_result": null,
+  "official_submission_from_D01": false
+}

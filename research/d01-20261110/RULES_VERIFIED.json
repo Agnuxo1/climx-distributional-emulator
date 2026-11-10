@@ -1,0 +1,19 @@
+{
+  "observed_utc": "2026-11-10T12:23:00Z",
+  "primary_url": "https://www.kaggle.com/competitions/climx-main-track/rules",
+  "secondary_primary_url": "https://github.com/IPL-UV/ClimX",
+  "method": "Authenticated Chrome DOM; complete competition-specific and foundational rules read",
+  "existing_acceptance_banner": true,
+  "new_terms_accepted_by_agent": false,
+  "training_data": "Organizer-provided Kaggle lite or full Hugging Face data; no external CMIP6 data or CMIP6-pretrained models",
+  "outputs": "Daily target fields first, official indices afterwards; only unweighted realisation means for the main track",
+  "forbidden_index_operations": "Fitted index-map transforms, bias corrections, smoothing and weighted cross-model index blends",
+  "public_code": "Allowed with compatible OSI licence; must also be shared in a competition-associated Kaggle notebook or forum (foundational section3.6b)",
+  "competition_data_redistribution": false,
+  "winner_source_and_weights_licences": ["MIT", "Apache-2.0"],
+  "maximum_team_members": 10,
+  "file_contract": "192x288 cells,86 annual maps,4755456 rows in time-latitude-longitude order",
+  "prizes_eur": [1800,1000,500],
+  "finalist_checks_required": true,
+  "independent_D01_submission_ready": false
+}
