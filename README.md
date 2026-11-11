@@ -14,6 +14,10 @@ A reproducible adaptation of the credited public distributional pattern-scaling 
 
 **Contents** — [Provenance and measured status](#provenance-and-measured-status) · [Background](#background) · [Reproduce](#reproduce) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Licence](#licence) · [Bibliography](#bibliography)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Bounded-memory member generation and reusable band caches aim to make climate-scenario experiments manageable on one server. This adaptation retains credit for maverickss26's public forecasting engine and provides a controlled basis for testing new daily-field methods. The <a href="#d01-completed-screening-result--10-november-2026">completed D01 study</a> rejected an unconfirmed extension, helping direct further computation toward supported hypotheses; faster full-simulator replacement and environmental savings have not been measured here.</sub>
+<!-- impact-note:end -->
+
 ## Provenance and measured status
 
 <p align="center"><img src="docs/readme/02-provenance.gif" alt="Flow from the credited Kaggle notebook through this adaptation and the official ClimX code to the submission format" width="100%"><br><sub>Fig. 1 — Provenance. Data: README and NOTICE; no submissions are recorded in docs/official-readback.json.</sub></p>
